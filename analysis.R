@@ -2,8 +2,8 @@
 #Install packages
 install.packages('readxl')
 #Assume K occupants. How probable is it to obtain all K over n samples?
-#setwd("C:\\Users\\oyvbl\\Dropbox\\Forensic\\TransferDNAstuff_elida\\OfficeChiara")
-setwd("G:\\Dropbox\\Chiara\\Oyvind analysis\\chiarasprojectairdustsamplestheory")
+#Place data file into a folder and set the workign directory so the program can find it
+#setwd("[pathname"])
 fn = "Data.xlsx"
 
 pdf(paste0("ProbCalcs.pdf"))
