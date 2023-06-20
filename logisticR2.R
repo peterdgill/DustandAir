@@ -1,5 +1,6 @@
 #logistic regression on dust data
-setwd("G:\\Dropbox\\Chiara\\Oyvind analysis")
+#Set the working directory below
+#setwd("[pathname]")
 
 # Load the readxl package
 install.packages('readxl')
