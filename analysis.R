@@ -58,7 +58,7 @@ for(sheet in sheets) {
     txt = paste0("Experiment: ",sheet,"| Office: ", office)
     yv = seq(0,1,0.05)
     xv = nvec
-    plot(0,0,xlim=range(nvec),ylim=0:1,xlab="number of samples (S_r)",ylab="pr(all occupants sampled)",ty="n",main=txt,axes=FALSE)
+    plot(0,0,xlim=range(nvec),ylim=0:1,xlab=expression("number of samples (S"["z"] ~ ")"),ylab="pr(all occupants sampled)",ty="n",main=txt,axes=FALSE)
     mtext(paste0("K=",K, " occupants"))
     axis(1,at=xv,las=2)
     axis(2,at=yv,las=2)
